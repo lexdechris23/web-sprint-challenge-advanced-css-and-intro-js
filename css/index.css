@@ -134,3 +134,48 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+  /* responsive design */
+
+@media(max-width:500px){
+
+    /* header stuff */
+
+    header{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    header nav a{
+        display: flex;
+        margin: .5rem 2rem;
+    }
+
+    /* title picture  */
+
+    .title-container div{
+        width: 100%;
+    }
+
+    /* artist stuff */
+
+    .artists-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }   
+
+    .artist{
+        width: 80%;
+    }
+
+    .artist a{
+        width: 80%;
+    }
+
+    .artist img{
+        width: 60%;
+        height: 60%;
+    }
+}
